@@ -51,9 +51,9 @@ Overview
   <img height="300px" align="middle" src="doc/image/Logo CVSlicer Transparent.png"/>
 </p>
 <br>
-Say, you have extremely large dimension images like floor plans, maps, building layout, etc. You want to use them with your object detection model. Sometimes, it might have some compatibility issues with some models or some programs might not be taking images in such an enormous dimension.
+Say, you have extremely large dimension images like floor plans, maps, building layout, etc. You want to use them with your object detection model. Sometimes, it might have compatibility issues with your models or in the case where your programs might not be capable of taking images in such an enormous dimension.
 <br><br>
-There are some workarounds, ie. <br>
+There are a few workarounds, ie. <br>
 (1) Downsize the image dimension by losing quality.
 <br>
 (2) Crop/Slice the image into smaller pieces.
@@ -72,7 +72,7 @@ Concepts
 
 In brief, if we are to sliced the image below into smaller pieces, we are going to slice it into 9 smaller pieces. The 4 pieces are the main pieces. While for the 5th - 9th pieces, they are strips above the borders, their width and height are determined by the size of the object that you are detecting. Those strips are to prevent the case where your object gets sliced in half within the borders of the first 4 pieces that we sliced.
 
-For more details please refer <a href="doc/INDEX.MD">*"doc/INDEX.MD"*</a>
+For more details please refer <a href="doc/INDEX.md">*"doc/INDEX.md"*</a>
 <br><br><br>
 <p align="center">
   <img height="300px" align="middle" src="doc/image/slicing-steps.gif"/>
